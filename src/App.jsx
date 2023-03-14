@@ -1,11 +1,13 @@
 import './App.css';
+import Nav from './Components/main-nav/nav-container';
 
 function App() {
   return (
     <div className="App">
       <div className='nav'>
-
+        <Nav/>
       </div>
+    {/* Esto en un futuro va a parte para acomodar el React Router */}
       <div className='main'>
         
       </div>
