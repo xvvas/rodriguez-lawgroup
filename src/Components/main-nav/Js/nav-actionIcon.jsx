@@ -1,9 +1,11 @@
 import React from 'react';
-import { MdMenu } from 'react-icons/md';
-function NavIcon () {
+import { MdMoreHoriz } from 'react-icons/md';
+function NavIcon ({getClic}) {
     return (
-        <div className="nav-links">
-            <MdMenu />
+        <div 
+        onClick = {getClic}
+        className="nav_icon">
+            <MdMoreHoriz />
         </div>
     )
   }
