@@ -15,10 +15,18 @@ function Nav() {
         <NavIcon getClic={getListenerClic} />
       </header>
       <nav className={`nav_dinamicMenu ${isActive ? '--open' : '--close'}`}>
-        <NavLink textLink={'INICIO'} />
-        <NavLink textLink={'BIO'} />
-        <NavLink textLink={'CASES'} />
-        <NavLink textLink={'CONTACT'} />
+        <NavLink 
+				textLink={'INICIO'} 
+				phathLink={'/'} />
+        <NavLink 
+				textLink={'BIO'} 
+				phathLink={'#BIO'} />
+        <NavLink 
+				textLink={'CASES'} 
+				phathLink={'#CASES'} />
+        <NavLink 
+				textLink={'CONTACT'}
+				phathLink={'#BIO'} />
       </nav>
     </nav>
   );

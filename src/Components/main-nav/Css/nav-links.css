@@ -1,0 +1,8 @@
+.nav_links{
+    font: var(--formtext);
+    color: var(--textcolor);
+    transition: 0.5s;
+}
+.nav_links:hover{
+    color: var(--hovernav);
+}

@@ -1,9 +1,15 @@
 import React from "react";
-function NavLink ({textLink}) {
+import { Link } from 'react-router-dom'
+import '../Css/nav-links.css'
+function NavLink ({ textLink, phathLink }) {
     return (
-        <div className="nav-links">
+        <Link 
+        to={`${phathLink}`}
+        className="nav_links" >
+
             {textLink}
-        </div>
+
+        </Link>
     )
   }
 
