@@ -1,9 +1,10 @@
 import React from "react";
-function Hero() {
+import '../css/heroContainer.css'
+function Hero({ title }) {
     return (
-        <div>
-            
-        </div>
+        <main className="heroContainer --paralax">
+                <h1 className="hero_h1">{title}</h1>
+        </main>
     )
   }
 

@@ -1,13 +1,13 @@
 import React from "react";
+import Hero from "../../../hero/js/HeroContainer";
 import '../css/home.css'
 function Home() {
     return (
-        <>
-            <div className='main'>
-                <h1>testing</h1>
-            </div>
+        <div className="home">
+            <Hero 
+            title={'PERSONAL INJURY AND WORKERS COMPENSATION ATTORNEY'} />
             <div className='bio'>
-    
+            
             </div>
             <div className='cta'>
     
@@ -18,7 +18,7 @@ function Home() {
             <div className='contact'>
     
             </div>
-        </>
+        </div>
     )
   }
 

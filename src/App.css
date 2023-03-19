@@ -4,11 +4,11 @@ html{
     margin: 0;
 }
 :root{
-    --bluemenu: #222c2b; 
+    --bluemenu: #222c2b93; 
     --hovernav: #8FC1B5;
     --graybg: #3e3e3e; 
-    --bluemenu: #222c2b;
     --textcolor: #ffffff; 
+    --maintitlemobile: 400 2.2rem/normal Playfair Display;
     --maintitle: 400 4rem/normal Playfair Display; 
     --text: 400 1.5rem/normal Fira Sans; 
     --subtitle: 400 2.5rem/normal Playfair Display; 

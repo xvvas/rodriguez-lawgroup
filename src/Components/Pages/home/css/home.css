@@ -1,5 +1,8 @@
-.homeContainer{
-    width: 100%;
-    position: relative;
-    z-index: 1;
+/*Mobile*/
+@media (max-width: 768px){
+    .home{
+        width: 100vw;
+        height: 100vh;
+        
+    }
 }
