@@ -9,15 +9,15 @@
         align-items: center;
         flex-direction: column;
     }
+    .hero_h1{
+        font: var(--maintitlemobile);
+    }
 }
 /*General*/
 .hero_h1{
-    font: var(--maintitlemobile);
     color: var(--textcolor);
-    transition: 0.5s;
     text-align: center;
 }
-    /*Filtros*/
     /*modificadores generales*/
     .--paralax{
         /* The image used */
