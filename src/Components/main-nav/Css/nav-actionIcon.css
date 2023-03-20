@@ -1,0 +1,38 @@
+/*Mobile*/
+@media (max-width: 768px){
+    .nav_icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        width: 3rem;
+        font-size: 3rem;
+        border: 0.016rem solid var(--textcolor);
+        color: var(--textcolor);
+    }
+    
+/*Animacion Button*/
+    .--up{
+        animation: rotate-180-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @keyframes rotate-180-cw {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(180deg);
+        }
+      }
+      .--down{
+        animation: rotate-0-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      }
+      @keyframes rotate-0-cw {
+        0% {
+          transform: rotate(180deg);
+        }
+        100% {
+          transform: rotate(0);
+        }
+      }
+}
+

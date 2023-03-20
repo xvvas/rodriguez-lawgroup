@@ -4,7 +4,8 @@ html{
     margin: 0;
 }
 :root{
-    --bluemenu: #222c2b93; 
+    --bluemenu: #222c2b;
+    --bluemenualfa: #222c2b81;
     --hovernav: #8FC1B5;
     --graybg: #3e3e3e; 
     --textcolor: #ffffff; 

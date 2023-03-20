@@ -27,10 +27,10 @@
         height: 20%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        column-gap: 3rem;
         align-items: center;
         z-index: 10;
-        background-color: var(--bluemenu);
+        
     }
     .nav_dinamicMenu{
         width: 100%;
@@ -42,6 +42,7 @@
         row-gap: 4rem;
         background-color: var(--bluemenu);
     }
+  /*animation for nav section*/
     .--close{
         animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     }
@@ -66,6 +67,30 @@
         100% {
           transform: translateY(0);
           opacity: 1;
+        }
+      }
+
+    /*animation for header*/
+    .--disabled{
+        animation: opacity-out 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    @keyframes opacity-out {
+        0% {
+          background-color: var(--bluemenu);
+        }
+        100% {
+          background-color: var(--bluemenualfa);
+        }
+      }
+    .--enabled{
+        animation: opacity-in 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @keyframes opacity-in {
+        0% {
+          background-color:  var(--bluemenualfa);
+        }
+        100% {
+          background-color: var(--bluemenu);
         }
       }
 

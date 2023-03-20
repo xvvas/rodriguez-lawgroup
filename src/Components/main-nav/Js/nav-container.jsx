@@ -10,9 +10,11 @@ function Nav() {
 	}
   return ( 
     <nav className="navContainer">
-      <header className="nav_header">
+      <header className={`nav_header ${isActive ? '--enabled' : '--disabled'}`}>
         <NavBrand />
-        <NavIcon getClic={getListenerClic} />
+        <NavIcon 
+        getClic={getListenerClic}
+        isActive={isActive} />
       </header>
       <nav className={`nav_dinamicMenu ${isActive ? '--open' : '--close'}`}>
         <NavLink 
