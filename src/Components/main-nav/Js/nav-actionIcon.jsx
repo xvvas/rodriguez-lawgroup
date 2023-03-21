@@ -6,7 +6,7 @@ function NavIcon ({ getClic, isActive }) {
     return (
         <div 
         onClick = {getClic}
-        className='nav_icon'>
+        className={`nav_icon ${isActive ? '--checked' : '--unchecked'}`}>
                 <MdExpandMore className={`${isActive ? '--up' : '--down'}`}/>
         </div>
     )
