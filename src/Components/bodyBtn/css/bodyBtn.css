@@ -1,0 +1,17 @@
+.bodyBtn{
+    font: var(--text);
+    color: var(--textcolor)
+}
+.--t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.5rem;
+    height: 0.5rem;
+    padding: 1rem;
+    border: 0.016rem solid var(--textcolor);
+    transition: 0.5s ease-in-out;
+}
+.--t1:hover{
+    background-color: var(--bluemenualfa);
+}

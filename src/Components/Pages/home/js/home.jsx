@@ -5,7 +5,10 @@ function Home() {
     return (
         <div className="home">
             <Hero 
-            title={'PERSONAL INJURY AND WORKERS COMPENSATION ATTORNEY'} />
+            title={'PERSONAL INJURY AND WORKERS COMPENSATION ATTORNEY'} 
+            heroBtnText1={'Call Us'}
+            heroBtnLink1={'tel:3054424323'}
+            heroBtnStyle1={'bodyBtn --t1'}/>
             <div className='bio'>
             
             </div>

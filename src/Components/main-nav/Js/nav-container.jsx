@@ -13,22 +13,22 @@ function Nav() {
       <header className={`nav_header ${isActive ? '--enabled' : '--disabled'}`}>
         <NavBrand />
         <NavIcon 
-        getClic={getListenerClic}
-        isActive={isActive} />
+          getClic={getListenerClic}
+          isActive={isActive} />
       </header>
       <nav className={`nav_dinamicMenu ${isActive ? '--open' : '--close'}`}>
         <NavLink 
-				textLink={'INICIO'} 
-				phathLink={'/'} />
+				  textLink={'INICIO'} 
+				  phathLink={'/'} />
         <NavLink 
-				textLink={'BIO'} 
-				phathLink={'#BIO'} />
+				  textLink={'BIO'} 
+				  phathLink={'#BIO'} />
         <NavLink 
-				textLink={'CASES'} 
-				phathLink={'#CASES'} />
+				  textLink={'CASES'} 
+				  phathLink={'#CASES'} />
         <NavLink 
-				textLink={'CONTACT'}
-				phathLink={'#BIO'} />
+				  textLink={'CONTACT'}
+				  phathLink={'#BIO'} />
       </nav>
     </nav>
   );
