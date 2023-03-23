@@ -8,7 +8,7 @@
         align-items: center;
         justify-content: space-between;
         column-gap: 2rem;
-        background-color: var(--bluemenu);
+        background-color: var(--bluemenualfa);
     }
     .nav_header{
         width: 50%;

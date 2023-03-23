@@ -8,10 +8,11 @@ html{
     --bluemenualfa: #222c2b81;
     --hovernav: #8FC1B5;
     --graybg: #3e3e3e; 
-    --textcolor: #ffffff; 
+    --textcolor: #ffffff;
+    --texcoloralfa: #ffffff57;
     --maintitlemobile: 400 2.2rem/normal Playfair Display;
     --maintitle: 400 4rem/normal Playfair Display; 
-    --text: 400 1.5rem/normal Fira Sans; 
+    --text: 300 1.5rem/normal Fira Sans; 
     --subtitle: 400 2.5rem/normal Playfair Display; 
     --formtext: 400 1.25rem/normal Playfair Display; 
     --strongtext: 500 1.5rem/normal Fira Sans; 

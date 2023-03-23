@@ -13,5 +13,20 @@
     transition: 0.5s ease-in-out;
 }
 .--t1:hover{
+    background-color: var(--texcoloralfa);
+}
+.--t2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.5rem;
+    height: 0.5rem;
+    padding: 1rem;
+    border: 0.016rem solid var(--textcolor);
+    background-color: var(--texcoloralfa);
+    transition: 0.5s ease-in-out;
+}
+.--t2:hover{
+    border-radius: 1rem;
     background-color: var(--bluemenualfa);
 }

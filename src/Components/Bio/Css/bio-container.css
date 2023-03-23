@@ -1,0 +1,48 @@
+/*Desktop*/
+@media (min-width: 769px){
+    .bioContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: var(--graybg);
+    }
+    .bio_textContainer{
+        margin: 3rem;
+        width: 74rem;
+        height: 23rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bio_imgContainer{
+        width: 32rem;
+        height: 32rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .bio_img{
+        width: 100%;
+        height: 100%;
+    }
+    .bio_h2{
+        font: var(--subtitle);
+        color: var(--textcolor);
+    }
+    .bio_h3{
+        font: var(--strongtext);
+        color: var(--textcolor);
+    }
+    .bio_p{
+        font: var(--text);
+        color: var(--textcolor)
+    }
+}
+/*Mobile*/
+@media (max-width: 768px){
+
+}
