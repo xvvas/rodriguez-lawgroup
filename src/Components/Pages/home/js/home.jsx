@@ -2,6 +2,7 @@ import React from "react";
 import Bio from "../../../Bio/Js/bio-container";
 import Cta from "../../../cta/js/cta-container";
 import Hero from "../../../hero/js/HeroContainer";
+import { FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 import '../css/home.css'
 function Home() {
     return (
@@ -26,7 +27,13 @@ function Home() {
             title={'NOTABLE CASES'}
             linkCtaBtn={'https://goo.gl/maps/sZ6fohEPevamv78x5'}
             textCtaBtn={'Visit Us'}
-            styleCtaBtn={'bodyBtn --t1'} />
+            styleCtaBtn={'bodyBtn --t1'} 
+            linkCtaBtn1={'#'}
+            textCtaBtn1={<FaLinkedin/>}
+            styleCtaBtn1={'bodyBtn --t3'}
+            linkCtaBtn2={'#'}
+            textCtaBtn2={<FaInstagramSquare/>}
+            styleCtaBtn2={'bodyBtn --t3'}/>
             
             <div className='cases'>
     

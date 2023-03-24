@@ -19,6 +19,14 @@
         margin-bottom: 3rem;
         background-color: var(--textcolor);
     }
+    .cta_btn{
+        width: 100%;
+        display: flex;
+        column-gap: 2rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
 /*Mobile*/
 @media (max-width: 768px){
@@ -40,6 +48,14 @@
         height: 0.3rem;
         margin-bottom: 3rem;
         background-color: var(--textcolor);
+    }
+    .cta_btn{
+        width: 100%;
+        display: flex;
+        column-gap: 2rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
  

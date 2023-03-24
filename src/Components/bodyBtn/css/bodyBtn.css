@@ -30,3 +30,17 @@
     border-radius: 1rem;
     background-color: var(--bluemenualfa);
 }
+.--t3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    border: 0.016rem solid var(--textcolor);
+    transition: 0.5s ease-in-out;
+     
+}
+.--t3:hover{
+    background-color: var(--texcoloralfa);
+}
