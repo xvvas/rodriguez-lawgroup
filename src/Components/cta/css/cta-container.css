@@ -1,0 +1,64 @@
+ /*Desktop*/
+@media (min-width: 769px){
+    .ctaContainer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cta_title{
+        color: var(--textcolor);
+        font: var(--subtitle);
+        text-align: center;
+    }
+    .cta-Separator{
+        width: 30rem;
+        height: 0.3rem;
+        margin-bottom: 3rem;
+        background-color: var(--textcolor);
+    }
+}
+/*Mobile*/
+@media (max-width: 768px){
+    .ctaContainer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cta_title{
+        color: var(--textcolor);
+        font: var(--subtitle);
+        text-align: center;
+    }
+    .cta-Separator{
+        width: 10rem;
+        height: 0.3rem;
+        margin-bottom: 3rem;
+        background-color: var(--textcolor);
+    }
+}
+ 
+ 
+ 
+ 
+ /*modificadores generales*/
+ .--ctaParalax{
+    /* The image used */
+    background-image: url('https://i.imgur.com/B6VGN4J.png');
+
+    /* Full height */
+    width: 100%;
+    
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../css/bodyBtn.css'
 function BodyBtn({ linkBtn, text, style }){
     return(
-        <Link 
+        <Link
         to={`${linkBtn}`}
         className={style} >
 
