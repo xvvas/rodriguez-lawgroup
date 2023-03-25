@@ -1,0 +1,41 @@
+.casesCard{
+    width: 28.25rem;
+    height: 64.063rem;
+    display: flex;
+    position: relative;
+    z-index: 1;        
+    color: var(--textcolor);
+}
+.card_texBox{
+    padding: 3rem;
+}
+.card_h3{
+    font: var(--basictitle)
+}
+.card_h4{
+    font: var(--strongtext)
+}
+.card_p{
+    font: var(--text);
+}
+
+
+/*modifiers*/
+.--bg1{
+    background-image: url('https://i.imgur.com/0ukrsRZ.png');
+}
+.--bg2{
+    background-image: url('https://i.imgur.com/Qes9Btq.png');
+}
+.--bg3{
+    background-image: url('https://i.imgur.com/HcK86kP.png');
+}
+.--bg4{
+    background-image: url('https://i.imgur.com/TcN5uB5.png');
+}
+.--bg5{
+    background-image: url('https://i.imgur.com/161TwIh.png');
+}
+.--bg6{
+    background-image: url('https://i.imgur.com/vNtflVI.png');
+}

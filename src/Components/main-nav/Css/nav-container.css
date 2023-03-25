@@ -8,6 +8,7 @@
         align-items: center;
         justify-content: space-between;
         column-gap: 2rem;
+        z-index: 20;
         background-color: var(--bluemenualfa);
     }
     .nav_header{
