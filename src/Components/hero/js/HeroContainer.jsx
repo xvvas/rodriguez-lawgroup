@@ -1,19 +1,21 @@
 import React from "react";
 import BodyBtn from "../../bodyBtn/js/bodyBtn";
 import '../css/heroContainer.css'
-function Hero({ title, heroBtnLink1, heroBtnText1, heroBtnStyle1, heroBtnLink2, heroBtnText2, heroBtnStyle2 }) {
+function Hero() {
     return (
         <main className="heroContainer --paralax">
-            <h1 className="hero_h1">{title}</h1>
+            <h1 className="hero_h1">
+                PERSONAL INJURY AND WORKERS COMPENSATION ATTORNEY
+            </h1>
             <div className="hero-btnContainer">
                 <BodyBtn
-                linkBtn={heroBtnLink1}
-                text={heroBtnText1}
-                style={heroBtnStyle1} />
+                linkBtn={'tel:3054424323'}
+                text={'Call Us'}
+                styleBtn={'bodyBtn --t1'} />
                 <BodyBtn
-                linkBtn={heroBtnLink2}
-                text={heroBtnText2}
-                style={heroBtnStyle2} />
+                linkBtn={'#Contact'}
+                text={'Visit Us'}
+                styleBtn={'bodyBtn --t2'} />
             </div>
         </main>
        

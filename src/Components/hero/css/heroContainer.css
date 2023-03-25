@@ -9,6 +9,7 @@
         flex-direction: column;
     }
     .hero_h1{
+        padding: 2rem;
         font: var(--maintitle)
     }
     .hero-btnContainer{
