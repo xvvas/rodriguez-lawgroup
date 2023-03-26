@@ -18,7 +18,7 @@ function Nav() {
       </header>
       <nav className={`nav_dinamicMenu ${isActive ? '--open' : '--close'}`}>
         <NavLink 
-				  textLink={'INICIO'} 
+				  textLink={'HOME'} 
 				  phathLink={'/'} />
         <NavLink 
 				  textLink={'BIO'} 
