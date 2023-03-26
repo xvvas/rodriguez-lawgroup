@@ -1,15 +1,35 @@
-.cases{
+/*desktop*/
+@media (min-width: 769px) {
+  .cases {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--bluemenu);
-}
-.cases_row{
+  }
+  .cases_row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
     padding: 0rem 2rem 0rem 2rem;
+  }
+}
+/*Mobile*/
+@media (max-width: 768px) {
+  .cases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bluemenu);
+  }
+  .cases_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
 }
