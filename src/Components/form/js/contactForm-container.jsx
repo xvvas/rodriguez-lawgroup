@@ -1,46 +1,69 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 
 const ContactForm = () => {
-  const { register, formState: { errors }, handleSubmit } = useForm();
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+  } = useForm({
+    defaultValues: {
+      nombre: "Luis",
+      direccion: "Calle Gran Vía",
+    },
+  });
 
   const onSubmit = (data) => {
     console.log(data);
   };
 
   return (
-    <div className="form">
-      <div className="form_title">
-        <p className="form_p"></p>
+    <div className="ContactForm">
+      <div>
+        <p>Contact Form</p>
       </div>
-
-      <div className="body_separator"></div>
+      <div className="cta-Separator"></div>
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="form_form"
-        name="Email Us"
+        name="contact"
         method="POST"
         data-netlify="true"
-        data-netlify-recaptcha="true"
       >
-        <div className="form_smField">
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" ref={register('name', { required: true })} />
-          {errors.name && <span>This field is required</span>}
-        </div>
-
-        <div className="form_smField">
-          <label htmlFor="lastName">Last Name:</label>
+        <div className="form_lt">
+          <label>Name</label>
           <input
             type="text"
-            name="lastName"
-            ref={register('lastName', { required: true })}
+            {...register("name", {
+              required: true,
+              minLength: 3,
+            })}
           />
-          {errors.lastName && <span>This field is required</span>}
+          {errors.nombre?.type === "required" && (
+            <p>The name field is required</p>
+          )}
+          {errors.nombre?.type === "maxLength" && (
+            <p>The name field must be at least 3 characters long.</p>
+          )}
         </div>
 
-        <div className="form_smField">
+        <div className="form_lt">
+          <label>Last Name</label>
+          <input
+            type="text"
+            {...register("lastName", {
+              required: true,
+              minLength: 3,
+            })}
+          />
+          {errors.nombre?.type === "required" && (
+            <p>The Last Name field is required</p>
+          )}
+          {errors.nombre?.type === "minLength" && (
+            <p>The Last Name field must be at least 3 characters long.</p>
+          )}
+        </div>
+
+        <div className="form_lt">
           <label>Email</label>
           <input
             type="text"
@@ -49,27 +72,41 @@ const ContactForm = () => {
             })}
           />
           {errors.email?.type === "pattern" && (
-            <p>The email format is incorrect</p>
+            <p>El formato del email es incorrecto</p>
           )}
         </div>
 
-        <div className="form_smField">
-          <label htmlFor="phone">Phone:</label>
-          <input type="tel" name="phone" ref={register('phone', { required: true })} />
-          {errors.phone && <span>This field is required</span>}
+        <div className="form_lt">
+          <label>Phone</label>
+          <input
+            type="text"
+            {...register("lastName", {
+              required: true,
+              minLength: 3,
+            })}
+          />
+          {errors.nombre?.type === "required" && (
+            <p>The Phone field is required</p>
+          )}
+          {errors.nombre?.type === "minLength" && (
+            <p>The Phone field must be at least 3 characters long.</p>
+          )}
         </div>
 
-        <div className="form_lgField">
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" ref={register('message', { required: true })} />
-          {errors.message && <span>This field is required</span>}
+        <div className="form_lg">
+          <label>Message</label>
+          <input
+            type="text"
+            {...register("lastName", {
+              required: true,
+            })}
+          />
+          {errors.nombre?.type === "required" && (
+            <p>The Phone field is required</p>
+          )}
         </div>
 
-        <div data-netlify-recaptcha="true"></div>
-
-        <button className="form_send" type="submit">
-          Send
-        </button>
+        <input type="submit" value="send" />
       </form>
     </div>
   );
