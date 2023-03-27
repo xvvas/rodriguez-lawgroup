@@ -102,7 +102,7 @@ const ContactForm = () => {
           )}
         </div>
 
-        <input type="submit" value="send" />
+        <input type="submit" value="Submit message" />
       </form>
     </div>
   );
