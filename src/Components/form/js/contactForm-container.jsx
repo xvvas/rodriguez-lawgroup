@@ -76,7 +76,7 @@ const ContactForm = () => {
           <label>Phone</label>
           <input
             type="text"
-            {...register("lastName", {
+            {...register("phone", {
               required: true,
               minLength: 3,
             })}
@@ -93,7 +93,7 @@ const ContactForm = () => {
           <label>Message</label>
           <input
             type="text"
-            {...register("lastName", {
+            {...register("message", {
               required: true,
             })}
           />
