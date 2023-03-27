@@ -23,12 +23,8 @@ const ContactForm = () => {
       </div>
       <div className="cta-Separator"></div>
 
-      <form
-        onSubmit={handleSubmit(onSubmit)}
-        name="contact"
-        method="POST"
-        data-netlify="true"
-      >
+      <form onSubmit={handleSubmit(onSubmit)} name="contact" method="POST">
+        <input type="hidden" name="form-name" value="contact" />
         <div className="form_lt">
           <label>Name</label>
           <input
