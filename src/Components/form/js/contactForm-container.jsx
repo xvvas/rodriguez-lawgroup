@@ -28,6 +28,7 @@ const ContactForm = () => {
         <div className="form_lt">
           <label>Name</label>
           <input
+            id="name"
             type="text"
             {...register("name", {
               required: true,
@@ -45,6 +46,7 @@ const ContactForm = () => {
         <div className="form_lt">
           <label>Last Name</label>
           <input
+            id="lastname"
             type="text"
             {...register("lastName", {
               required: true,
@@ -62,6 +64,7 @@ const ContactForm = () => {
         <div className="form_lt">
           <label>Email</label>
           <input
+            id="email"
             type="text"
             {...register("email", {
               pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i,
@@ -75,6 +78,7 @@ const ContactForm = () => {
         <div className="form_lt">
           <label>Phone</label>
           <input
+            id="phone"
             type="text"
             {...register("phone", {
               required: true,
@@ -92,6 +96,7 @@ const ContactForm = () => {
         <div className="form_lg">
           <label>Message</label>
           <input
+            id="message"
             type="text"
             {...register("message", {
               required: true,
