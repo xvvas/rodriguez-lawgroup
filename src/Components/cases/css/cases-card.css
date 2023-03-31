@@ -1,7 +1,7 @@
 /*desktop*/
 @media (min-width: 769px) {
   .casesCard {
-    width: 28.25rem;
+    width: 60%;
     height: 64.063rem;
     display: flex;
     position: relative;
