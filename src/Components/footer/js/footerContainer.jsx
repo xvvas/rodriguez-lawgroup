@@ -27,7 +27,10 @@ function Footer() {
         <div className="footer_contactDate">
           <p className="footer_contactTitle">Contact</p>
           <p className="footer_contactText">
-            Phone: (305) 442-4322 Fax: (305) 442-4323
+            Phone: (305) 442-4322 
+          </p>
+          <p className="footer_contactText">
+            Fax: (305) 442-4323
           </p>
         </div>
         <div className="footer_contactDate">
