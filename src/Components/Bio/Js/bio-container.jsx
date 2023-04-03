@@ -4,8 +4,8 @@ function Bio(){
     return(
         <div className="bioContainer">
             <div className="bio_imgContainer">
-                <img clasName='bio_img'
-                src={'https://i.imgur.com/quT0uz9.png'}
+                <img className='bio_img'
+                src={'https://i.imgur.com/VddIPdK.jpg'}
                 alt={'Rodriguez-Lawgroup-Ceo'} />
             </div>
             <div 
