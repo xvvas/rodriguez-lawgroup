@@ -26,19 +26,19 @@ function Footer() {
         </div>
         <div className="footer_contactDate">
           <p className="footer_contactTitle">Contact</p>
-          <p className="footer_contactText">
-            Phone: (305) 442-4322 
-          </p>
-          <p className="footer_contactText">
-            Fax: (305) 442-4323
-          </p>
+          <p className="footer_contactText">Phone: (305) 442-4322</p>
+          <p className="footer_contactText">Fax: (305) 442-4323</p>
         </div>
         <div className="footer_contactDate">
           <p className="footer_contactTitle">Hours</p>
-          <p className="footer_contactText">
-            09:00 a. m. – 05:00 p. m.
-          </p>
+          <p className="footer_contactText">09:00 a. m. – 05:00 p. m.</p>
         </div>
+      </div>
+      <div className="footer_copy">
+        <p className="footer_contactText">
+          The contents of this website are the property of Rodriguez Law Group
+          and are protected by copyright. All rights reserved.
+        </p>
       </div>
     </div>
   );
