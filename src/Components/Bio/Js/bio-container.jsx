@@ -2,7 +2,7 @@ import React from "react";
 import '../Css/bio-container.css'
 function Bio(){
     return(
-        <div className="bioContainer">
+        <div className="bioContainer" id="bio">
             <div className="bio_imgContainer">
                 <img className='bio_img'
                 src={'https://i.imgur.com/VddIPdK.jpg'}

@@ -4,7 +4,7 @@ import "../css/cta-container.css";
 import { FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 function Cta() {
   return (
-    <div className="ctaContainer --ctaParalax">
+    <div className="ctaContainer --ctaParalax" id="cases">
       <div data-aos="zoom-in">
         <p className="cta_title" data-aos="fade-up">
           NOTABLE CASES

@@ -3,8 +3,8 @@ import BodyBtn from "../../bodyBtn/js/bodyBtn";
 import '../css/heroContainer.css'
 function Hero() {
     return (
-        <main className="heroContainer --paralax">
-            <h1 className="hero_h1">
+        <main className="heroContainer --paralax" id="hero">
+            <h1 className="hero_h1" >
                 PERSONAL INJURY AND WORKERS COMPENSATION ATTORNEY
             </h1>
             <div className="hero-btnContainer">
