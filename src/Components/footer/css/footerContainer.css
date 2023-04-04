@@ -6,6 +6,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         column-gap: 4rem;
         background-color: var(--bluemenu);
     }
@@ -28,6 +29,12 @@
     }
     .footer_contactDate{
         width: 24%;
+    }
+    .footer_copy{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .footer_contactTitle{
         font: var(--basictitle);
@@ -77,5 +84,11 @@
     .footer_contactText{
         font: var(--text);
         color: var(--textcolor);
+    }
+    .footer_copy{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -21,7 +21,7 @@ function Cta() {
         <BodyBtn
           styleBtn={"bodyBtn --t3"}
           text={<FaLinkedin />}
-          linkBtn={"#"}
+          linkBtn={"https://www.linkedin.com/in/javier-rodriguez-8a5203100/"}
         />
         <BodyBtn
           styleBtn={"bodyBtn --t3"}
