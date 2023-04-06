@@ -2,7 +2,7 @@ import React from "react";
 import "../css/contactForm-container.css";
 const ContactForm = () => {
   return (
-    <div className="contactFrm">
+    <div className="contactFrm" id="contact">
       <div className="form_title" data-aos="fade-up">
         <p className="form_p">Contact Form</p>
       </div>

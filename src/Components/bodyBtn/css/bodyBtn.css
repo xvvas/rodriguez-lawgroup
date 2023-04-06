@@ -9,8 +9,11 @@
     width: 8.5rem;
     height: 0.5rem;
     padding: 1rem;
+    background-color: var(--bluemenualfa);
     border: 0.016rem solid var(--textcolor);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
     transition: 0.5s ease-in-out;
+    
 }
 .--t1:hover{
     background-color: var(--texcoloralfa);
@@ -23,7 +26,8 @@
     height: 0.5rem;
     padding: 1rem;
     border: 0.016rem solid var(--textcolor);
-    background-color: var(--texcoloralfa);
+    background-color: var(--bluemenualfa);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
     transition: 0.5s ease-in-out;
 }
 .--t2:hover{
@@ -38,6 +42,7 @@
     height: 2.5rem;
     font-size: 2rem;
     border: 0.016rem solid var(--textcolor);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
     transition: 0.5s ease-in-out;
      
 }

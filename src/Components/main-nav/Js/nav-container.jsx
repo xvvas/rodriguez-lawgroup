@@ -1,8 +1,8 @@
 import '../Css/nav-container.css'
 import React, { useState } from "react";
 import NavBrand from "./nav-brand";
-import NavLink from "./nav-links";
 import NavIcon from "./nav-actionIcon";
+import NavALink from './nav-alink';
 function Nav() {
   const [isActive, setActive] = useState(false);
 	const getListenerClic = () => {
@@ -17,18 +17,18 @@ function Nav() {
           isActive={isActive} />
       </header>
       <nav className={`nav_dinamicMenu ${isActive ? '--open' : '--close'}`}>
-        <NavLink 
+        <NavALink 
 				  textLink={'HOME'} 
-				  phathLink={'/'} />
-        <NavLink 
+				  phathLink={'#hero'} />
+        <NavALink
 				  textLink={'BIO'} 
-				  phathLink={'#BIO'} />
-        <NavLink 
+				  phathLink={'#bio'} />
+        <NavALink
 				  textLink={'CASES'} 
-				  phathLink={'#CASES'} />
-        <NavLink 
+				  phathLink={'#cases'} />
+        <NavALink
 				  textLink={'CONTACT'}
-				  phathLink={'#BIO'} />
+				  phathLink={'#contact'} />
       </nav>
     </nav>
   );
