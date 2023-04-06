@@ -70,8 +70,9 @@
         overflow: hidden;
     }
     .bio_img{
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        object-fit: cover;
     }
     .bio_h2{
         font: var(--subtitle);
