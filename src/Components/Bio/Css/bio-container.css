@@ -27,7 +27,7 @@
     }
     .bio_img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .bio_h2{
         font: var(--subtitle);
@@ -71,7 +71,7 @@
     }
     .bio_img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .bio_h2{
         font: var(--subtitle);
