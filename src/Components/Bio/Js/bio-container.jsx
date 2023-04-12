@@ -3,7 +3,7 @@ import '../Css/bio-container.css'
 function Bio(){
     return(
         <div className="bioContainer" id="bio">
-            <div className="bio_imgContainer">
+            <div className="bio_imgContainer" data-aos="fade-right">
                 <img className='bio_img'
                 src={'https://i.imgur.com/VddIPdK.jpg'}
                 alt={'Rodriguez-Lawgroup-Ceo'} />
